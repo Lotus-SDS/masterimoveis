@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-30T02:06:21+00:00",
+  "title": "Design System: Master Imóveis",
+  "extensions": {
+    "colorMeta": {
+      "ink-night": {
+        "role": "neutral",
+        "displayName": "Blue-Hour Ink",
+        "canonical": "oklch(17.7% 0.025 262)",
+        "tonalRamp": [
+          "#060b16",
+          "#1d2430",
+          "#39404d",
+          "#565e6c",
+          "#757e8c",
+          "#969fae",
+          "#bbc5d5",
+          "#e6efff"
+        ]
+      },
+      "ink-deep": {
+        "role": "neutral",
+        "displayName": "Deep Night",
+        "canonical": "oklch(14.9% 0.017 260)",
+        "tonalRamp": [
+          "#070b12",
+          "#1f242c",
+          "#3b4049",
+          "#585e67",
+          "#777e88",
+          "#989fa9",
+          "#bec5cf",
+          "#e8effa"
+        ]
+      },
+      "stone-travertine": {
+        "role": "neutral",
+        "displayName": "Travertine",
+        "canonical": "oklch(92.4% 0.015 81)",
+        "tonalRamp": [
+          "#0e0b05",
+          "#28231c",
+          "#443f37",
+          "#625d54",
+          "#827c74",
+          "#a39e94",
+          "#c9c3ba",
+          "#f4eee4"
+        ]
+      },
+      "stone-light": {
+        "role": "neutral",
+        "displayName": "Lobby Stone",
+        "canonical": "oklch(95.9% 0.010 82)",
+        "tonalRamp": [
+          "#0d0b07",
+          "#27241e",
+          "#423f3a",
+          "#605d57",
+          "#807d77",
+          "#a29e97",
+          "#c7c4bd",
+          "#f2eee7"
+        ]
+      },
+      "master-red": {
+        "role": "primary",
+        "displayName": "Master Red",
+        "canonical": "oklch(54.1% 0.195 28)",
+        "tonalRamp": [
+          "#3e0000",
+          "#640000",
+          "#8b0000",
+          "#b1040b",
+          "#d93d33",
+          "#ff6355",
+          "#ff8b7a",
+          "#ffb6a3"
+        ]
+      },
+      "text-ink": {
+        "role": "neutral",
+        "displayName": "Ink Text",
+        "canonical": "oklch(20.9% 0.017 264)",
+        "tonalRamp": [
+          "#080b12",
+          "#20242d",
+          "#3b4049",
+          "#595e68",
+          "#787d88",
+          "#999fa9",
+          "#bec4d0",
+          "#e9effa"
+        ]
+      },
+      "text-slate": {
+        "role": "neutral",
+        "displayName": "Slate Text",
+        "canonical": "oklch(45.3% 0.016 252)",
+        "tonalRamp": [
+          "#070c12",
+          "#1f252c",
+          "#3a4048",
+          "#575e67",
+          "#777e87",
+          "#989fa8",
+          "#bdc5ce",
+          "#e7eff9"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "On-Dark",
+        "canonical": "oklch(95.3% 0.010 82)",
+        "tonalRamp": [
+          "#0d0b07",
+          "#27241e",
+          "#423f3a",
+          "#605d57",
+          "#807d77",
+          "#a29e97",
+          "#c7c4bd",
+          "#f2eee7"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Placeholder Gray",
+        "canonical": "#6b6f75",
+        "tonalRamp": [
+          "#0a0c10",
+          "#22252a",
+          "#3d4046",
+          "#5a5e64",
+          "#7a7e84",
+          "#9b9fa5",
+          "#c0c3c8",
+          "#eaedf1"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#3b3b3b",
+          "#555555",
+          "#717171",
+          "#8e8e8e",
+          "#adadad",
+          "#d0d0d0",
+          "#ffffff"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "The MASTER word at building scale (hero, footer). Nothing else."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline; one italic word."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section and floor titles."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Elevator counter, floor numbers, the 30 years figure."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card titles and service names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs, 31-36rem measure."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "All actions."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, tags, counter label; never an eyebrow."
+      },
+      "display-xl": {
+        "displayName": "Display XL",
+        "purpose": "The ascent's opening line only."
+      },
+      "list": {
+        "displayName": "List",
+        "purpose": "Neighborhood names as links."
+      },
+      "subhead": {
+        "displayName": "Subhead",
+        "purpose": "Listing prices and the owner form title."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "First paragraph of a section; text under floor titles."
+      },
+      "input": {
+        "displayName": "Input",
+        "purpose": "Fields and selects (never below 1rem)."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Card details, service lines, secondary buttons, status."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Photo captions, hints, errors, notes."
+      },
+      "logo": {
+        "displayName": "Logo",
+        "purpose": "MASTER in the header and footer lockup."
+      },
+      "logo-sub": {
+        "displayName": "Logo sub",
+        "purpose": "The tracked IMÓVEIS line of the logotype."
+      }
+    },
+    "shadows": [
+      {
+        "name": "dock",
+        "value": "0 30px 60px -28px rgba(0, 0, 0, 0.75)",
+        "purpose": "Search dock over the hero photo."
+      },
+      {
+        "name": "form",
+        "value": "0 34px 80px -34px rgba(0, 0, 0, 0.8)",
+        "purpose": "Owner form over the keys photo."
+      },
+      {
+        "name": "card-lift",
+        "value": "0 26px 44px -26px rgba(11, 17, 28, 0.5)",
+        "purpose": "Listing card hover, with a 5px rise."
+      },
+      {
+        "name": "float",
+        "value": "0 14px 34px -12px rgba(0, 0, 0, 0.55)",
+        "purpose": "Floating WhatsApp button."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Arrivals, hover transitions, sliding edges."
+      },
+      {
+        "name": "ease-io",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Symmetric scene changes."
+      },
+      {
+        "name": "hero-word-rise",
+        "value": "2.2s expo.out, from 64% below",
+        "purpose": "MASTER rises from behind the skyline on load."
+      },
+      {
+        "name": "heading-words",
+        "value": "1.15s expo.out, 0.05s stagger, from 112% inside a slit",
+        "purpose": "Section titles on first view."
+      },
+      {
+        "name": "photo-reveal",
+        "value": "1.5s expo.out clip-path inset 12%/10% to 0, image 1.18 to 1",
+        "purpose": "Figures entering the viewport."
+      },
+      {
+        "name": "ascent-scrub",
+        "value": "scrub 0.9; 0.55 viewport heights per timeline unit (0.5 on phones)",
+        "purpose": "Pinned elevator ride."
+      },
+      {
+        "name": "hero-parallax",
+        "value": "sky +11%, word +58% of its height over the hero's scroll",
+        "purpose": "Sky lags the city; the word sinks behind the towers."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "640px"
+      },
+      {
+        "name": "tablet",
+        "value": "1023px"
+      },
+      {
+        "name": "laptop",
+        "value": "1180px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one decisive action of a section: search, see all, send on WhatsApp.",
+      "html": "<button class=\"ds-btn-primary\">Buscar imóveis <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></button>",
+      "css": "@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300..700&family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap'); .ds-btn-primary{display:inline-flex;align-items:center;gap:.6rem;min-height:3.25rem;padding:0 1.5rem;border:0;border-radius:99px;background:#c72923;color:#fff;font:600 .95rem/1 'Albert Sans',system-ui,sans-serif;letter-spacing:.01em;cursor:pointer;transition:background-color .25s,transform .2s cubic-bezier(.16,1,.3,1)} .ds-btn-primary svg{transition:transform .45s cubic-bezier(.16,1,.3,1)} .ds-btn-primary:hover{background:#a8201b} .ds-btn-primary:hover svg{transform:translateX(3px)} .ds-btn-primary:focus-visible{outline:2px solid #c72923;outline-offset:3px} .ds-btn-primary:active{transform:scale(.97)}"
+    },
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Secondary action on travertine fields.",
+      "html": "<button class=\"ds-btn-ink\">Fale com a Master</button>",
+      "css": "@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300..700&family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap'); .ds-btn-ink{min-height:3.25rem;padding:0 1.5rem;border:0;border-radius:99px;background:#0b111c;color:#f3efe8;font:600 .95rem/1 'Albert Sans',system-ui,sans-serif;cursor:pointer;transition:background-color .25s} .ds-btn-ink:hover{background:#1a2536} .ds-btn-ink:focus-visible{outline:2px solid #c72923;outline-offset:3px} .ds-btn-ink:active{transform:scale(.97)}"
+    },
+    {
+      "name": "Line Button on Dark",
+      "kind": "button",
+      "refersTo": "button-line-on-dark",
+      "description": "Secondary action over photographs and night fields.",
+      "html": "<div style=\"background:#0b111c;padding:24px\"><button class=\"ds-btn-line\">Chamar no WhatsApp</button></div>",
+      "css": "@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300..700&family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap'); .ds-btn-line{min-height:3.25rem;padding:0 1.5rem;border:1px solid rgba(243,239,232,.42);border-radius:99px;background:rgba(7,11,18,.12);color:#f3efe8;font:600 .95rem/1 'Albert Sans',system-ui,sans-serif;cursor:pointer;transition:border-color .25s,background-color .25s} .ds-btn-line:hover{border-color:#f3efe8;background:rgba(243,239,232,.08)} .ds-btn-line:focus-visible{outline:2px solid #c72923;outline-offset:3px} .ds-btn-line:active{background:#c72923;border-color:#c72923}"
+    },
+    {
+      "name": "Mode Tabs with Moving Edge",
+      "kind": "nav",
+      "refersTo": "tab",
+      "description": "Comprar/Alugar switch; the red edge slides under the active option.",
+      "html": "<div class=\"ds-tabs\"><button class=\"ds-tab is-on\">Comprar</button><button class=\"ds-tab\">Alugar</button><span class=\"ds-edge\"></span></div>",
+      "css": "@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300..700&family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap'); .ds-tabs{position:relative;display:inline-flex;border-bottom:1px solid rgba(20,24,32,.13)} .ds-tab{padding:.85rem 1.3rem;border:0;background:none;font:600 .95rem/1 'Albert Sans',system-ui,sans-serif;color:#50575f;cursor:pointer;transition:color .3s} .ds-tab.is-on,.ds-tab:hover{color:#141820} .ds-tab:focus-visible{outline:2px solid #c72923;outline-offset:-2px} .ds-edge{position:absolute;left:0;bottom:-1px;width:50%;height:2px;background:#c72923;transition:transform .55s cubic-bezier(.16,1,.3,1)} .ds-tabs:hover .ds-tab:last-of-type:hover~.ds-edge{transform:translateX(100%)}"
+    },
+    {
+      "name": "Listing Card",
+      "kind": "card",
+      "refersTo": "card-listing",
+      "description": "Illustrative listing: photo, badge, place, specs and example price.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card__media\"><span class=\"ds-card__badge\">Venda</span><span class=\"ds-card__demo\">Ilustrativo</span></div><div class=\"ds-card__body\"><h3>Apartamento 3 quartos</h3><p class=\"ds-card__place\">Praia do Canto, Vitória</p><p class=\"ds-card__specs\">3 quartos · 2 vagas · 118 m²</p><p class=\"ds-card__price\"><small>Valor de exemplo</small>R$ 1.290.000</p></div></article>",
+      "css": "@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300..700&family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap'); .ds-card{width:300px;overflow:hidden;background:#f5f1ea;border:1px solid rgba(20,24,32,.13);border-radius:8px;transition:transform .6s cubic-bezier(.16,1,.3,1),box-shadow .6s cubic-bezier(.16,1,.3,1);font-family:'Albert Sans',system-ui,sans-serif;color:#141820} .ds-card:hover{transform:translateY(-5px);box-shadow:0 26px 44px -26px rgba(11,17,28,.5)} .ds-card__media{position:relative;aspect-ratio:4/3;background:linear-gradient(#1d2a44,#0b111c)} .ds-card__badge{position:absolute;left:.9rem;bottom:.9rem;padding:.42rem .68rem;border-radius:3px;background:#f5f1ea;font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase} .ds-card__demo{position:absolute;right:.9rem;top:.9rem;padding:.36rem .55rem;border-radius:3px;background:rgba(9,14,23,.6);color:#f3efe8;font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase} .ds-card__body{padding:1.3rem} .ds-card h3{margin:0 0 .35rem;font-size:1.16rem;font-weight:600} .ds-card__place{margin:0 0 1rem;color:#50575f;font-size:.9rem} .ds-card__specs{margin:0 0 1rem;padding-top:.95rem;border-top:1px solid rgba(20,24,32,.13);font-size:.86rem} .ds-card__price{display:grid;gap:.2rem;margin:0;font:400 1.6rem/1.1 'Bodoni Moda',Georgia,serif} .ds-card__price small{font:600 .72rem 'Albert Sans',system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#50575f}"
+    },
+    {
+      "name": "Form Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Owner form field with label, focus halo and error state.",
+      "html": "<label class=\"ds-field\"><span>Bairro e cidade</span><input placeholder=\"Ex.: Jardim da Penha, Vitória\"></label>",
+      "css": "@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300..700&family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap'); .ds-field{display:grid;gap:.4rem;width:320px;font-family:'Albert Sans',system-ui,sans-serif} .ds-field span{font-size:.8rem;font-weight:600;color:#50575f} .ds-field input{min-height:3rem;padding:.75rem .9rem;border:1px solid #8c8478;border-radius:6px;background:#fff;font:1rem 'Albert Sans',system-ui,sans-serif;color:#141820;transition:border-color .2s,box-shadow .2s} .ds-field input::placeholder{color:#6b6f75} .ds-field input:focus{outline:none;border-color:#141820;box-shadow:0 0 0 3px rgba(199,41,35,.22)} .ds-field input[aria-invalid=true]{border-color:#a3211c}"
+    },
+    {
+      "name": "Annotation Tag",
+      "kind": "chip",
+      "refersTo": "tag-annotation",
+      "description": "Label pinned to a photograph with a dot and a hairline leader line.",
+      "html": "<div style=\"background:#1d2a44;padding:40px\"><span class=\"ds-tag\"><i></i><b>Vista para o mar</b></span></div>",
+      "css": "@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300..700&family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap'); .ds-tag{display:inline-flex;align-items:center} .ds-tag i{width:.62rem;height:.62rem;border-radius:50%;background:#f3efe8;box-shadow:0 0 0 5px rgba(243,239,232,.2)} .ds-tag b{position:relative;margin-left:2.6rem;padding:.58rem .8rem;font:600 .72rem/1 'Albert Sans',system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#f3efe8;background:rgba(9,14,23,.6);border:1px solid rgba(243,239,232,.24);border-radius:3px;backdrop-filter:blur(8px)} .ds-tag b::before{content:'';position:absolute;right:100%;top:50%;width:2.3rem;height:1px;background:rgba(243,239,232,.7)}"
+    },
+    {
+      "name": "Elevator Counter",
+      "kind": "custom",
+      "refersTo": "numeral",
+      "description": "The ascent's floor counter: label, stepping Bodoni numeral, floor name after a red bar.",
+      "html": "<div style=\"background:#0b111c;padding:32px 40px;display:inline-block\"><div class=\"ds-counter\"><span class=\"ds-counter__label\">Andar</span><span class=\"ds-counter__num\">16</span><span class=\"ds-counter__name\">16º andar</span></div></div>",
+      "css": "@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300..700&family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap'); .ds-counter{display:grid;justify-items:end;color:#f3efe8;font-family:'Albert Sans',system-ui,sans-serif} .ds-counter__label{font-size:.72rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:rgba(243,239,232,.74)} .ds-counter__num{font:400 7rem/.92 'Bodoni Moda',Georgia,serif;font-variation-settings:'opsz' 96;font-variant-numeric:lining-nums tabular-nums;letter-spacing:-.02em} .ds-counter__name{display:inline-flex;align-items:center;gap:.65rem;margin-top:.4rem;font-size:.74rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase} .ds-counter__name::before{content:'';width:1.6rem;height:2px;background:#c72923}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Do térreo à cobertura",
+    "overview": "The page is the building Master sells. It is lit at blue hour in Vitória, the moment when the towers of Praia do Canto turn their windows on and the sky is still blue. Everything takes its light and color from that scene. Night-ink fields carry the photographs and the ride; travertine fields, the stone of a lobby floor, carry reading and choosing. Master's red belongs to the brand's three rising blocks. On the page it is the lit edge of whatever is moving, plus one decisive action per section.\n\nThe signature is architectural, not decorative. The MASTER wordmark stands at building scale behind the real skyline through a matte cut from the photograph. The scroll then rides an elevator: a pinned stage where each floor is a category of the inventory, a Bodoni floor numeral steps through every level, and annotation tags hang off the photos on hairline leader lines, like tags on a sales-stand scale model. Density is low and spacing generous; every section shows one photograph and one voice.\n\nThe build rejects the generic real-estate template: a hero, a search bar and a grid of cards with nothing that belongs to the place. It also rejects any look that could belong to a city other than Vitória.",
+    "keyCharacteristics": [
+      "Two grounds only: night ink and travertine, alternating by section.",
+      "Anton for the brand wordmark only; Bodoni Moda for display and numerals; Albert Sans for everything you read and operate.",
+      "Real Vitória photography (public-domain MTur series) for place; labeled stock for illustrative interiors.",
+      "Motion is spatial and scroll-driven: the word sinks behind towers, floors enter from above, numerals step.",
+      "Content is visible by default; motion is an enhancement layer."
+    ],
+    "rules": [
+      {
+        "name": "The Moving Edge Rule",
+        "body": "Red marks what moves or what is active: underlines that slide, the rail that fills, the swash that draws, the pressed state. The only red fill at rest is the one primary action of a section. No red headings, red backgrounds or red decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Fields Rule",
+        "body": "A section is either night ink or travertine. Photographs sit on ink. Never introduce a third ground or a gradient field.",
+        "section": "colors"
+      },
+      {
+        "name": "The Stepping Numeral Rule",
+        "body": "Floor numbers step through every integer (T, 01, 02 … 16 … C) in tabular Bodoni; they never tween through fractions or float between values.",
+        "section": "typography"
+      },
+      {
+        "name": "The Short Caps Rule",
+        "body": "Uppercase is for labels of a few words. Captions and credits are set in sentence case.",
+        "section": "typography"
+      },
+      {
+        "name": "The Skyline Rule",
+        "body": "Depth between type and photograph comes from a matte derived from the photograph itself (sky versus facades). Never approximate a building's contour with a hand-drawn polygon or a geometric mask.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep Master Red on moving edges and on the single primary action of a section (#c72923, pressed #a8201b).",
+      "Do alternate night ink (#0b111c / #070b12) and travertine (#ebe5db) fields, with photographs on ink.",
+      "Do set floor numbers and counters in tabular Bodoni Moda and step them one floor at a time.",
+      "Do hang captions and tags on a dot plus a 1px leader line.",
+      "Do derive any type-behind-architecture effect from a matte of the actual photograph.",
+      "Do keep every section's content visible without JavaScript and under reduced motion."
+    ],
+    "donts": [
+      "Don't put a kicker or eyebrow above a heading; floor levels sit beside the floor, never above its title.",
+      "Don't use Anton for anything but the MASTER wordmark.",
+      "Don't set labels below 0.72rem or uppercase whole captions.",
+      "Don't use gradient text, colored side stripes, hard offset shadows or blur as decoration.",
+      "Don't present stock interiors as Master's listings; illustrative cards carry the \"Ilustrativo\" chip and \"Valor de exemplo\"."
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-30T01:20:37.655Z",
+        "reason": "Agent: detector drops clamp() inside custom properties (reproduced with a two-section fixture: clamp padding flagged, rem padding not); sections use --pad-x/--section-y clamps; optgroup flags are native select UI"
+      }
+    ]
+  }
+}
